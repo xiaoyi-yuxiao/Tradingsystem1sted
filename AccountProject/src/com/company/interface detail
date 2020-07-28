@@ -1,0 +1,5 @@
+When system start
+----initiate the dataio class and pass to bank and stock system.
+希望dataio initialize一次就好了
+全员实现一个dataprocessor的接口(其中有SuperDateIO)
+loader是用来解决载入不同类型的txt文件的接口， 可以介入loader来制造自己需要的方法 其中有(MarketPriceLoader)
